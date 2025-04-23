@@ -65,7 +65,8 @@ def predict():
         return jsonify({'error': f'Erreur lors du traitement de l\'image : {e}'}), 400
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0')
+    # app.run(debug=True, host='0.0.0.0')
+    pass
 
 
 
