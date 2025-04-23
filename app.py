@@ -10,7 +10,7 @@ from deepface import DeepFace
 app = Flask(__name__)
 
 # Charger le modèle entraîné
-model_path = '/home/mechack-kasongo/Desktop/reconnaissance/model_VGG-Face.pkl'
+model_path = 'model_VGG-Face.pkl'
 try:
     model = joblib.load(model_path)
     print(f"✅ Modèle chargé depuis : {model_path}")
